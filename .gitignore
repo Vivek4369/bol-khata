@@ -1,0 +1,35 @@
+# Private runtime configuration
+.env
+.env.*
+!.env.example
+
+# Customer records and database backups
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.bak
+
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Logs, downloaded AI runtimes and model weights
+*.log
+work/
+models/
+*.gguf
+*.bin
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
