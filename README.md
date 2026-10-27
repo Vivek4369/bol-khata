@@ -7,7 +7,8 @@ An installable mobile web app (PWA) for Android and iPhone. This is not an APK o
 Requires Python 3.11+ with its standard library; no npm install. Ledger and chat work without external credentials; SMS/email delivery requires provider credentials.
 
 ```sh
-cd bol-khata-github
+git clone https://github.com/Vivek4369/bol-khata.git
+cd bol-khata
 python3 server.py
 ```
 
